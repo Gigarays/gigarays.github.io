@@ -129,7 +129,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 @media  screen and (max-width:550px) {
     #banner {
-        background: url("../images/banner-images/banmob.png") no-repeat center top;
+        background: url("../images/banner-images/cir.png") no-repeat center top;
         background-size:cover;
     }
 }
