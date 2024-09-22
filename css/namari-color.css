@@ -124,8 +124,14 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/banner_2.png") no-repeat center top;
+    background: url("../images/banner-images/ban2.png") no-repeat center top;
     background-size:cover;
+}
+@media  screen and (max-width:550px) {
+    #banner {
+        background: url("../images/banner-images/banmob.png") no-repeat center top;
+        background-size:cover;
+    }
 }
 
 
