@@ -1,0 +1,62 @@
+.customanchor {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Add a background color on hover */
+.customanchor:hover {
+    /* background-color: #f8f9fa; */
+    /* Change to desired hover color */
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+}
+
+/* .customanchor .icon-block {
+    box-shadow: 1px 1px 5px rgba(88, 101, 174, 0.8);
+} */
+
+/* Add styles to the box on hover */
+.customanchor .icon-block:hover {
+    box-shadow: 5px 5px 10px #d2b356;
+    /* Optional: add shadow for depth */
+    transform: translateY(-2px);
+    /* Optional: lift effect */
+    transition: all 0.5s ease;
+    /* Smooth transition */
+}
+
+
+.pro {
+    text-align: center;
+
+}
+
+.pro img {
+    height: 400px;
+    width: 400px;
+}
+
+.pro h4 {
+    font-weight: 700;
+    font-size: 24px;
+}
+.pro h4 span{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d2b356
+}
+
+.pro p {
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+.pro p span {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #d2b356
+}
